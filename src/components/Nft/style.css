@@ -1,0 +1,99 @@
+img {
+  max-width: 100%;
+}
+
+div .avata {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  padding-top: 1rem;
+}
+div .avata img {
+  width: 3.5rem;
+  border: 2px solid hsl(0, 0%, 100%);
+  border-radius: 50%;
+  margin-right: 1rem;
+}
+.avata p span {
+  color: white;
+  font-weight: 400;
+}
+.avata p span:hover {
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
+}
+
+.Nft ul li {
+  display: flex;
+  align-items: start;
+}
+
+.Nft ul li:first-child {
+  color: hsl(178, 100%, 50%);
+}
+
+.Nft ul li img {
+  margin-right: 0.5rem;
+}
+
+.Nft ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 0;
+  border-bottom: 1px solid hsl(215, 32%, 27%);
+  list-style-type: none;
+  color: hsl(0, 0%, 100%, 60%);
+}
+.Nft h2 {
+  color: hsl(0, 0%, 100%);
+  margin: 1rem 0.5rem 0.5rem 0;
+}
+
+.Nft h2:hover {
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
+}
+
+.Nft p {
+  color: hsl(0, 0%, 100%, 60%);
+  font-weight: 300;
+}
+.Nft img {
+  border-radius: 0.625rem;
+  margin-bottom: 1rem;
+}
+
+.Nft .main-image {
+  position: relative;
+}
+
+.Nft .main-image div {
+  position: absolute;
+  top: 0;
+  border-radius: 0.625rem;
+  background-color: hsl(178, 100%, 50%, 60%);
+  width: 100%;
+  height: 94%;
+  z-index: 999;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.Nft .main-image div:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.Nft .main-image div img {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@media (min-width: 500px) {
+  .Nft {
+    width: 350px;
+  }
+}
