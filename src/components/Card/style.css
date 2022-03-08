@@ -1,8 +1,7 @@
 .Card {
   background-color: hsl(216, 50%, 16%);
-  padding: 1.25rem;
+  padding: 0.90rem;
   border-radius: 0.5rem;
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.05);
-  margin-bottom: 1rem;
-  margin-top: 4rem;
-}
+  margin-bottom:1rem;
+} 

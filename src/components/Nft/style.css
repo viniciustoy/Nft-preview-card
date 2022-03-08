@@ -4,19 +4,20 @@ img {
 
 div .avata {
   display: flex;
-  align-items: center;
+  align-items:center;
   justify-content: start;
-  padding-top: 1rem;
 }
 div .avata img {
-  width: 3.5rem;
+  width: 2.2rem;
   border: 2px solid hsl(0, 0%, 100%);
   border-radius: 50%;
   margin-right: 1rem;
+  margin-top: 13px;
 }
 .avata p span {
   color: white;
   font-weight: 400;
+  font-size: 13px;
 }
 .avata p span:hover {
   color: hsl(178, 100%, 50%);
@@ -25,7 +26,7 @@ div .avata img {
 
 .Nft ul li {
   display: flex;
-  align-items: start;
+  align-items:start;
 }
 
 .Nft ul li:first-child {
@@ -39,15 +40,16 @@ div .avata img {
 .Nft ul {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  padding: 1rem 0;
+  justify-content:space-between;
+  padding: 0.50rem 0;
   border-bottom: 1px solid hsl(215, 32%, 27%);
   list-style-type: none;
   color: hsl(0, 0%, 100%, 60%);
 }
+
 .Nft h2 {
   color: hsl(0, 0%, 100%);
-  margin: 1rem 0.5rem 0.5rem 0;
+  margin-bottom: 10px;
 }
 
 .Nft h2:hover {
@@ -58,7 +60,9 @@ div .avata img {
 .Nft p {
   color: hsl(0, 0%, 100%, 60%);
   font-weight: 300;
+  margin-bottom: 6px;
 }
+
 .Nft img {
   border-radius: 0.625rem;
   margin-bottom: 1rem;
@@ -74,7 +78,7 @@ div .avata img {
   border-radius: 0.625rem;
   background-color: hsl(178, 100%, 50%, 60%);
   width: 100%;
-  height: 94%;
+  height: 92%;
   z-index: 999;
   opacity: 0;
   transition: opacity 0.5s ease-in-out;
@@ -94,6 +98,8 @@ div .avata img {
 
 @media (min-width: 500px) {
   .Nft {
-    width: 350px;
+    width: 250px;
+
   }
 }
+

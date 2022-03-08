@@ -4,7 +4,7 @@ import "./style.css";
 
 export const Nft = ({ nftData }) => {
   console.log(nftData);
-
+  
   return (
     <Card className="Nft">
       <div className="main-image">
@@ -14,7 +14,6 @@ export const Nft = ({ nftData }) => {
         </div>
       </div>
       <h2>
-        {" "}
         {nftData.title} #{nftData.id}
       </h2>
       <p> {nftData.p} </p>
